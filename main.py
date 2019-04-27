@@ -2,7 +2,7 @@ def printSimplePath(start : int, end : int, current_path : list, arcs : list):
     current_path.append(start)
 
     for arc in arcs:
-        if arc[0] != current_path[-1]:
+        if arc[0] != start:
             continue
 
         if arc[1] in current_path:
