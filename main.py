@@ -17,9 +17,7 @@ def printSimplePath(start : int, end : int, current_path : list, arcs : list):
     current_path.pop()
 
 gStart, gEnd = [int(i) for i in input().split()]
-
 gPath = list()
-
 listArcs = [(1, 2),
             (1, 7),
             (2, 1),
